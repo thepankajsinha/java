@@ -1,6 +1,7 @@
 package linkedlist;
 
 public class basicsOfLL {
+    //Node is a user defined data type
     public static  class Node{
         int data;
         Node next;
@@ -9,6 +10,7 @@ public class basicsOfLL {
             this.data = data;
         }
     }
+
     public static void main(String[] args) {
 
         //create 5 nodes
@@ -30,7 +32,6 @@ public class basicsOfLL {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
-
-
     }
 }
+//5 10 15 20 25
